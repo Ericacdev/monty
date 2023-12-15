@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include <fcnt1.h>
 #include <string.h>
 #include <ctype.h>
 /**
@@ -61,5 +60,4 @@ void op_add(stack_t **head, unsigned int counter);
 void op_nop(stack_t **head, unsigned int counter);
 
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-void free_stack(stack_t *head);
 #endif
